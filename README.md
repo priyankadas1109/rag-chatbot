@@ -26,7 +26,27 @@ A powerful Python-based Retrieval-Augmented Generation (RAG) chatbot designed to
 
 ## 📂 Folder Structure
 
-rag-chatbot/ │ ├── app/ │ ├── pdf_bot.py # Streamlit app logic │ ├── chains.py # LLM & embedding chain logic │ └── utils/ │ ├── init.py │ └── file_readers.py # Modular file readers │ ├── lambda/ │ ├── handler.py # AWS Lambda handler │ └── requirements.txt │ ├── jenkins/ │ └── Jenkinsfile # Docker build & deploy pipeline │ ├── requirements.txt # Python dependencies ├── docker-compose.yml ├── pdf_bot.Dockerfile ├── .dockerignore ├── .gitignore └── example.env # Template for environment variables
+rag-chatbot/
+├── app/
+│   ├── pdf_bot.py            # Streamlit app logic
+│   ├── chains.py             # LLM & embedding chain logic
+│   └── utils/
+│       ├── __init__.py
+│       └── file_readers.py   # Modular file readers
+│
+├── lambda/
+│   ├── handler.py            # AWS Lambda handler
+│   └── requirements.txt
+│
+├── jenkins/
+│   └── Jenkinsfile           # Docker build & deploy pipeline
+│
+├── requirements.txt          # Python dependencies
+├── docker-compose.yml
+├── pdf_bot.Dockerfile
+├── .dockerignore
+├── .gitignore
+└── example.env               # Template for environment variables
 
 
 ---
@@ -44,14 +64,16 @@ rag-chatbot/ │ ├── app/ │ ├── pdf_bot.py # Streamlit app logic �
    cd rag-chatbot
 
 3. **Create .env from Template**
+    ```bash
     cp example.env .env
-    # Add your AWS/OpenAI credentials etc.
+    Add your AWS/OpenAI credentials etc.
 
 4. **Run with Docker**
+    ```bash
     docker-compose up --build
 
 5. **Access Chat UI**
-    Visit: http://localhost:8503
+    - Visit: http://localhost:8503
 
 
 ## 🧠 Technologies Used
