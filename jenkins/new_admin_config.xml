@@ -1,0 +1,9 @@
+<user>
+  <fullName>Admin User</fullName>
+  <properties>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <username>admin</username>
+      <passwordHash>#jbcrypt:$2a$10$7EqJtq98hPqEX7fNZaFWoO</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+  </properties>
+</user>

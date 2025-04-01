@@ -1,0 +1,17 @@
+# Ignore sensitive files & folders
+.env
+*.env
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.zip
+*.tar.gz
+*.msg
+*.DS_Store
+venv/
+node_modules/
+data/
+embedding_model/
+.ipynb_checkpoints/

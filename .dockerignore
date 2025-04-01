@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.zip
+*.tar.gz
+*.msg
+.env
+data/
+embedding_model/
+node_modules/
+.DS_Store
+venv/
+.ipynb_checkpoints/

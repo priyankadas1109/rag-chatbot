@@ -1,0 +1,12 @@
+# Required AWS SDK
+boto3
+botocore
+
+# LangChain AWS support
+langchain-aws
+
+# Optional: useful for any external API calls (future-proofing)
+requests
+
+# Optional: schema validation or future LangChain integrations
+pydantic
