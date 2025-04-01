@@ -24,8 +24,10 @@ A powerful Python-based Retrieval-Augmented Generation (RAG) chatbot designed to
 
 ---
 
+
 ## 📂 Folder Structure
 
+```
 rag-chatbot/
 ├── app/
 │   ├── pdf_bot.py            # Streamlit app logic
@@ -47,7 +49,7 @@ rag-chatbot/
 ├── .dockerignore
 ├── .gitignore
 └── example.env               # Template for environment variables
-
+```
 
 ---
 
