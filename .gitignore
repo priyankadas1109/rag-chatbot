@@ -1,6 +1,7 @@
 # Ignore sensitive files & folders
 .env
 *.env
+!example.env
 __pycache__/
 *.pyc
 *.pyo
@@ -10,6 +11,7 @@ __pycache__/
 *.tar.gz
 *.msg
 *.DS_Store
+jenkins_home/
 venv/
 node_modules/
 data/
